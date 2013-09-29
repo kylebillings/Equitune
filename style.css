@@ -136,4 +136,8 @@ h3 {
 	transform: scale(1);
 	opacity: 1;
 }
+
+.md-close {
+	font-size: 1em;
+}
 /* End Popup */
