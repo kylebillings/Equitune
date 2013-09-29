@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+	<title>CrowdSound</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+  _gaq.push(['_trackPageview']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+	<div class="header">
+		<div class="headername">
+			<h1>Equi<span style="font-family: Gotham-Black; color: #ecf0f1">tune</span></h1>
+		</div>
+		<img class="headerlogo" src="images/hackingarts.gif"/>
+		<h3>Share In A Better Future For Artists</h3>
+		<button onClick="_gaq.push(['_trackEvent', 'Buttons', 'Learn More', 'Clicked']);" class="md-trigger" data-modal="modal-11">Learn More</button>
+	</div>
+
+<div class="md-modal md-effect-12" id="modal-11">
+    <div class="md-content">
+        <h1>Equi<span style="font-family: Gotham-Black; color: #27ae62">tune</span></h1>
+        <h3>Thanks for your interest.<br/>
+        	We can't wait to get started<br/>
+        	Stay tuned.
+        	</h3>
+        <div>
+            <button class="md-close">Close</button>
+        </div>
+    </div>
+</div>
+
+<div class="md-overlay"></div>
+
+<script src="scripts/modalEffects.js"></script>
+<script src="scripts/classie.js"></script>
+</body>
+</html>
